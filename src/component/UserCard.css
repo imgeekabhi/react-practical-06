@@ -1,0 +1,95 @@
+.user-card {
+  min-width: 28rem;
+  min-height: 45rem;
+  margin-top: 85px;
+  margin-bottom: 0px;
+  margin-left: 883px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 43px;
+  align-items: center !important;
+}
+.card-contain {
+  width: 24rem;
+}
+.card-contain img {
+  margin-left: 64px;
+  margin-top: 13px;
+  height: 100px;
+  width: 100px;
+}
+.card-contain h3 {
+  margin-left: 65px;
+  margin-top: 15px;
+}
+.card-contain .email {
+  margin-left: 65px;
+  margin-top: 6px;
+}
+.card-contain .plan {
+  margin-left: 35px;
+  margin-top: 0px;
+}
+.card-contain button {
+  margin-left: 39px;
+  margin-top: 15px;
+}
+.card-contain .plan-uses {
+  margin-left: 1px;
+  font-weight: bold;
+  margin-top: 28px;
+  font-size: 1.5rem;
+}
+.btn {
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: white !important;
+  max-width: 160px;
+  background-color: #feb23e;
+  text-decoration: none;
+  width: 100%;
+}
+.horizontal-line {
+  height: 3px;
+  width: 90%;
+  border-width: 0px;
+  color: #feb23e;
+  background-color: #feb23e;
+  margin-left: 11px;
+  margin-top: -3px;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 50px;
+  margin-top: 0px;
+}
+.bottom-section {
+  margin-top: 17px;
+}
+.bottom-section h1 {
+  font-weight: bold;
+  margin-left: 6px;
+}
+.bottom-section p {
+  font-weight: bold;
+}
+.profile-icon #avatar {
+  height: 100px;
+  width: 100px;
+}
+.parent-bar {
+  background-color: #f097118a;
+  width: 100%;
+  border-radius: 15px;
+}
+.child-bar {
+  background-color: #f09611;
+  color: white;
+  text-align: right;
+  border-radius: 15px;
+}
+.progress {
+  width: 60%;
+}
