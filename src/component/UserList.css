@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+.parent-div {
+  display: flex;
+  background-color: red;
+}
+.main-div {
+  min-height: 100vh;
+  background: #f0efe9;
+  display: flex;
+}
+.card {
+  min-width: 110rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.child-div {
+  text-align: center;
+  padding-right: 9px;
+  margin-top: 2rem;
+}
+
+.user-btn {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  margin-left: -2.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  background-color: #fff;
+  background-image: none;
+  color: #666;
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+}
+
+.showItems {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.eachItem {
+  background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
+  width: 60rem;
+  word-break: break-word;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showItems .eachItem h3 {
+  font-size: 1.6rem;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.fa-trash-alt,
+.fa-lock {
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  color: black;
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+  margin-left: 148px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+.Space-between {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#add-btn {
+  border-radius: 50%;
+  background-color: #04aa6d;
+  border: none;
+  color: green;
+  opacity: 0.8;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px !important;
+  position: absolute;
+  bottom: 14px;
+  z-index: 1;
+}
+
+.dropdown-btn {
+  margin-left: 100px;
+}
+.dropdown-btn-2 {
+  margin-left: 146px;
+}
+.title {
+  display: flex;
+  justify-content: flex-start;
+  width: 80rem;
+}
+.title .name {
+  margin-left: 15px;
+}
+.title .sts {
+  margin-left: 286px;
+}
+.title .access {
+  margin-left: 152px;
+}
+.title p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.list-text {
+  margin-left: -10px;
+}
+.profile-icon img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.status,
+.position,
+.fa-lock {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.owner-detail {
+  display: flex;
+  justify-content: flex-start !important;
+}
+.owner-detail .status {
+  margin-left: 106px;
+}
+.owner-detail .position {
+  margin-left: 151px;
+}
+.owner-detail .fa-lock {
+  margin-left: 148px;
+}
+.owner-each-item {
+  width: 80rem;
+  justify-content: flex-start;
+}
+.owner-each-item .list-text {
+  margin-left: 12px;
+}
+.pagination-btn {
+  font-size: 15px;
+}
